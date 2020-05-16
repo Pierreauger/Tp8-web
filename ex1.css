@@ -1,0 +1,51 @@
+*{
+    background-color: beige;
+}
+body{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 100px 400px 1fr;
+}
+#d1{
+grid-row-start: 2;
+grid-row-end: 3;
+grid-column-start: 1;
+grid-column-end: 2;
+background-image: url(/1200px-Star_Wars_Logo.svg.webp);
+
+width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 25%;
+}
+#d2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#dp{
+    text-align: center;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.titre{
+    color: blue;
+}
+.droit{
+ background-position: right;
+}
+.gauche{
+    background-position: left;
+
+}
+.haut{
+    background-position: top;
+
+}
+.bas{
+    background-position: bottom;
+
+}
